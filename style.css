@@ -1,6 +1,6 @@
 body {
-    background: white;
-    color: black;
+    background: #09969E;
+    color: white;
     padding: 25px;
     font-family: sans-serif;
     text-align: center;
@@ -14,15 +14,16 @@ body {
   .chart {
   width: auto;
   height: 100rem;
-  margin: 0rem 050rem 0rem 05rem;
-  
+  margin: 0rem 5rem 0rem 5rem;
+  border: solid;
   
   }
   
   .row {
     display: block;
     height: 1.2rem;
-    width: 50rem;
+    width: auto;
+   
     padding: 1.5rem;
   }
   
@@ -31,10 +32,15 @@ body {
     display: inline-block;
     padding: 1.5rem;
     border: solid;
-    width: 50rem;
+    
+    width: auto;
+    margin-left: 1rem;
+    text-align: center;
   }
   
-  
+  .line {
+    height: 10rem;
+  }
   
   #c1 {
     border: solid;
@@ -705,6 +711,7 @@ body {
   #r100 {
     border: solid;
     width: 1rem;
+    
   }
   
   
